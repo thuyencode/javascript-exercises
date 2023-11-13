@@ -10,5 +10,11 @@
         "allowed_elements": ["kbd"]
       },
 		}
+	},
+	"extensions": {
+		"recommendations": [
+			"dbaeumer.vscode-eslint",
+			"christian-kohler.npm-intellisense"
+		]
 	}
 }
