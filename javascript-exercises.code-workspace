@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"markdownlint.config": {
+			"MD033": {
+        "allowed_elements": ["kbd"]
+      },
+		}
+	}
+}
