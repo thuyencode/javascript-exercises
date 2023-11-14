@@ -3,18 +3,19 @@ const sumAll = function (num1, num2) {
     return 'ERROR'
   }
 
-  if (num1 < 0 || num2 < 0) {
-    return 'ERROR'
+  if (num1 < 0 || num2 < 0) return 'ERROR'
+
+  if (num1 > num2) {
+    ;[num1, num2] = [num2, num1]
   }
 
-  let result = num1 > num2 ? num2 : num1
-  const n = num1 > num2 ? num1 : num2
+  let sum = 0
 
-  for (let i = 2; i <= n; i++) {
-    result += i
+  for (let i = num1; i <= num2; i++) {
+    sum += i
   }
 
-  return result
+  return sum
 }
 
 // Do not edit below this line
