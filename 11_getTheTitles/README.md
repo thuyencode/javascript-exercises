@@ -1,4 +1,4 @@
-# Exercise 11 - Get the Titles!
+# Exercise 11 - Get the Titles
 
 You are given an array of objects that represent books with an author and a title that looks like this:
 
@@ -6,12 +6,12 @@ You are given an array of objects that represent books with an author and a titl
 const books = [
   {
     title: 'Book',
-    author: 'Name'
+    author: 'Name',
   },
   {
     title: 'Book2',
-    author: 'Name2'
-  }
+    author: 'Name2',
+  },
 ]
 ```
 
